@@ -1,0 +1,3 @@
+$('.subcategories.with-image > li').find('a').each(function() {
+    console.log('#categories .categories ul > li a[href="'+ $(this).attr('href') +'"]:before, #navigation .menu-level-2 >li a[href="'+ $(this).attr('href') +'"]:before, .subcategories.with-image a[href="'+ $(this).attr('href') +'"] .image:before {');
+});
